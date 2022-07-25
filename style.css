@@ -155,7 +155,6 @@ a{
         }
         .about-me{
             display: block;
-            border: 2px solid red;
             text-align: center;
         }
         .image-2{
@@ -166,7 +165,6 @@ a{
         }
         .cover{
             display: block;
-            border: 2px solid red;
         }
         .image-3{
             width: 100%;
