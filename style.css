@@ -46,7 +46,7 @@ a{
 
 .about-me{
     display: flex;
-    background-image: url(images/shapes/1.png);
+    background-color: rgb(226, 191, 203);
     margin-bottom: 10%;
 }
 .image-2{
