@@ -1,0 +1,189 @@
+/*--------------------------------- 
+this is the start of food section 
+------------------------------------ */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.food {
+    display: flex;
+    padding: 5%;
+    background-image: url( images/shapes/Frame\ 58.jpg);
+    margin-bottom: 10%;
+    
+}
+.food h1 span{
+    color: orangered;
+}
+.food-info{
+    width: 50%;
+}
+ p{
+    font-size: x-large;
+    margin-bottom: 15%;
+}
+.text-1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.food-image{
+    width: 50%;
+}
+.food-image img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px 40px 15px 40px;
+    margin-top: 20px;
+    
+    border-radius: 40px;
+}
+/* this is about me  */
+
+.about-me{
+    display: flex;
+    background-image: url(images/shapes/1.png);
+    margin-bottom: 10%;
+}
+.image-2{
+    width: 50%;
+}
+.image-2 img{
+    width: 100%;
+}
+.info-2{
+    width: 50%;
+    padding-left: 10%;
+}
+.info-2 h1{
+    font-size: 45px;
+}
+/* new section  */
+
+.recipie{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.new{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.new h1{
+    font-size: 60px;
+}
+.image-3{
+    width: 50%;
+    margin-left: 3%;
+    margin-left: 3%;
+}
+.image-3 img{
+    width: 100%;
+}
+.image-3 h1{
+    font-size: 30px;
+}
+.image-3 p{
+    font-size: 20px;
+}
+.cover{
+    display: flex;
+
+}
+/* this is the start of footer  */
+.follows{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    justify-content: space-between;
+}
+.follow h1{
+    font-size: 30px;
+
+}
+
+
+.follow p{
+        font-size: 15px;
+        margin-bottom: none;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    height: 200px;
+    padding: 50px;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer span{
+    color: orangered;
+}
+.footer h1{
+    font-size: 50px;
+}
+@media only screen and (max-width: 688px) {
+        .food{
+            display: block;
+        }
+        .food-info{
+            width: 100%;
+        }
+        .food-image{
+            width: 100%;
+            margin-top: 10%;
+            align-items: center;
+            justify-content: center;
+        }
+        .food-image img{
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+        }
+        .about-me{
+            display: block;
+            border: 2px solid red;
+            text-align: center;
+        }
+        .image-2{
+            width: 100%;
+        }
+        .info-2{
+            width: 90%;
+        }
+        .cover{
+            display: block;
+            border: 2px solid red;
+        }
+        .image-3{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .image-3 h1{
+            margin-top: 10%;
+        }
+        .follows{
+            display: block;
+        }
+        .follows h1{
+            font-size: 60px;
+        }
+        .follows p{
+            font-size: 25px;
+        }
+       
+}
